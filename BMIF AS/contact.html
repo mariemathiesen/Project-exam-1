@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en, no">
+  <head>
+      <title>Contact</title>
+      <meta charset="UTF-8">
+      <meta name="description" content="Utstyr til el-bil">
+      <meta name="keywords" content="elbil, el-bil, ladestasjon, ladestasjoner, ladekabel, ladekabler, opplading, eo charging, evbox, energy, energy storage">
+      <meta name="author" content="Marie Mathiesen">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+      <link rel="stylesheet" type="text/css" href="styles/style.css">
+      <script src="scripts/script.js" defer></script> 
+  </head>
+
+  <body>
+
+    <div class="upper">
+      <img src="icons/logo.svg" alt="logo" height="auto" width="350px">
+    </div>
+
+    <header>
+      <img class="header" src="images/header.jpg" alt="header" height="auto" width="1280px">
+    </header>
+
+    <div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Chargers 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="eo.html">EO Charging</a>
+      <a href="evbox.html">EVBOX</a>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn">Cables and accesories 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="charging.html">Charging cables</a>
+      <a href="evse.html">EVSE</a>
+    </div>
+  </div> 
+  <a href="energy.html">Energy storage</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<br>
+<br>
+<br>
+
+<h1 class="contact1">Contact</h1>
+
+<br>
+<br>
+
+<form name="contactform" action="demo.php" method="get" onsubmit="return validateForm()">
+    <label for="name">Name:</label><br>
+    <input id="name" name="name" placeholder="Your name">
+    <span class="error" id="nameError"></span>
+
+    <br> 
+
+    <label for="phone">Phone number:</label><br>
+    <input id="phone" name="phone" placeholder="Your phone number">
+    <span class="error" id="phoneError"></span>
+
+    <br> 
+
+    <label>Email address:</label><br>
+    <input id="email" name="email" placeholder="Your email address">
+    <span class="error" id="emailError"></span>
+
+    <br>
+
+    <label>Confirm email address:</label><br>
+    <input id="email2" name="email2" placeholder="Confirm your email address">
+    <span class="error" id="email2Error"></span>
+    <br>
+
+    <label>Comment:</label><br>
+    <input name="comment" id="comment" placeholder="Type your message here...""></textarea>
+
+    <span class="error" id="commentError"></span>
+
+    <br>
+
+    <input id="submit" type="submit" value="Submit">
+</form>
+
+<br>
+<br>
+
+<div class="contactus">
+  <br>
+  <h2>Mail:</h2>
+  <br>
+  <p><a href="mailto:firmapost@bmif.no?%20again" target="_top">firmapost@bmif.no</a></p>
+  <br>
+  <h2>Adress:</h2>
+  <br>
+  <p>Thormøhlensgate 51</p>
+  <p>5006 Bergen, Norway</p>
+  <br>
+  <h2>Hours:</h2>
+  <br>
+  <p>Monday - Friday (8.00AM - 4.00PM)</p>
+</div>
+
+<br>
+<br>
+<br>
+
+<div class="kart">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1971.8672681275657!2d5.326963315932246!3d60.38135248203927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x463cf954a01532ad%3A0x8c054b57865041ec!2sThorm%C3%B8hlens+Gate+51%2C+5006+Bergen!5e0!3m2!1sno!2sno!4v1525106143705" width="600" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+
+<div class="footer">
+  <a href="https://www.facebook.com/bmif.no/"><img src="icons/fb.svg" alt="facebook" height="auto" width="40px"></a>
+  <a href="https://twitter.com/bmif_as"><img src="icons/tw.svg" alt="twitter" height="auto" width="40px"></a>
+  <a href="https://www.linkedin.com/company/bmif/"><img src="icons/ld.svg" alt="linkedin" height="auto" width="40px"></a>
+  <a href="mailto:firmapost@bmif.no?%20again"><img src="icons/em.svg" alt="email" height="auto" width="40px"></a>
+</div>
+
+</body>
+</html>
